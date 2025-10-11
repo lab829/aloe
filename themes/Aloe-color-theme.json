@@ -90,14 +90,15 @@
     "tab.inactiveBackground": "#1f221f",
     "tab.inactiveForeground": "#6b8370",
     "tab.hoverForeground": "#d9ebe0",
-    "tab.border": "#1f221f",
-    "tab.activeBorder": "#2d4733",
+  "tab.border": "#1f221f",
+  "tab.activeBorder": "#00000000",
+  "tab.activeBorderTop": "#2d4733",
     "tab.unfocusedActiveForeground": "#d9ebe0",
     "tab.unfocusedInactiveForeground": "#6b8370",
     "tab.unfocusedHoverForeground": "#d9ebe0",
     "editorGroup.border": "#1f221f",
     "editorGroupHeader.tabsBackground": "#1a1d1a",
-    "editorGroupHeader.tabsBorder": "#1f221f",
+  "editorGroupHeader.tabsBorder": "#00000000",
     "panel.background": "#1a1d1a",
     "panel.border": "#1f221f",
     "panel.dropBorder": "#2d4733",
@@ -258,6 +259,40 @@
       }
     },
     {
+      "name": "JSX Spread Operator",
+      "scope": [
+        "keyword.operator.spread.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#f5c97a",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSX Template Expression",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.jsx",
+        "punctuation.definition.template-expression.end.jsx",
+        "punctuation.definition.template-expression.begin.js.jsx",
+        "punctuation.definition.template-expression.end.js.jsx",
+        "meta.template.expression",
+        "meta.template.expression.js",
+        "meta.template.expression.jsx",
+        "meta.template.expression.js.jsx",
+        "string.template",
+        "string.template.js",
+        "string.template.jsx",
+        "string.template.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#a8e6a3"
+      }
+    },
+    {
       "name": "Function",
       "scope": [
         "entity.name.function",
@@ -279,11 +314,30 @@
     {
       "name": "Variable",
       "scope": [
-        "variable",
-        "variable.other"
+        "variable"
       ],
       "settings": {
         "foreground": "#d9ebe0"
+      }
+    },
+    {
+      "name": "JSX Read/Write Variables",
+      "scope": [
+        "variable.other",
+        "variable.other.readwrite",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.readwrite.js.jsx",
+        "meta.embedded.line.js.jsx variable.other",
+        "meta.template.expression.js.jsx variable.other",
+        "string.template.js.jsx variable.other",
+        "meta.block.js.jsx variable.other",
+        "meta.function.js.jsx variable.other",
+        "source.js.jsx variable.other"
+      ],
+      "settings": {
+        "foreground": "#f5c97a",
+        "fontStyle": "italic"
       }
     },
     {
