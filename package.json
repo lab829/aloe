@@ -1,0 +1,21 @@
+{
+  "name": "aloe",
+  "displayName": "Aloe",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aloe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aloe-color-theme.json"
+      }
+    ]
+  }
+}
