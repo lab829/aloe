@@ -1,3 +1,30 @@
 node_modules
 *.vsix
 .env
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings and workspace files
+.vscode/
+*.code-workspace
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+
+# Extension packaging
+*.tgz
+*.zip
+dist/
+out/
+
+# Misc
+Thumbs.db
+ehthumbs.db
+Desktop.ini
