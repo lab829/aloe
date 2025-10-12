@@ -1,11 +1,11 @@
 {
   "name": "aloe",
-  "publisher": "JulianPineda",
+  "publisher": "Lab829",
   "displayName": "Aloe Theme",
   "description": "Aloe is a dark color theme for Visual Studio Code. Inspired by the Aloe plant.",
   "version": "0.0.1",
   "author": {
-    "name": "Julian Pineda",
+    "name": "Lab829",
     "url": "https://lab829.com",
     "email": "julian@lab829.com"
   },
