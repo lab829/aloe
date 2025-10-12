@@ -1,4 +1,12 @@
-# Aloe
+<p align="center">
+  <img alt="Aloe Logo" src="https://raw.githubusercontent.com/lab829/aloe/master/images/aloe.png" width="100" />
+</p>
+<h1 align="center">
+  Aloe Theme for VS Code
+</h1>
+<p align="center">
+  A minimal, dark green theme for Vs Code.
+</p>
 
 Aloe is a dark VS Code theme with a calm green base, tuned for WCAG-friendly contrast and smooth day-long coding. Brackets, JSX tokens, and UI chrome have been hand-curated to avoid harsh neon tones while still keeping structure easy to scan.
 
@@ -11,6 +19,8 @@ Aloe focuses on comfort and quick code scanning.
 - Soft bracket pair coloring without the default pure yellow/blue clash
 - Accessible diff and peek highlights that distinguish insertions, deletions, and borders without eye strain
 - Polished workbench styling (tabs, breadcrumbs, minimap, sidebar) for a seamless UI
+
+![demo](https://raw.githubusercontent.com/lab829/aloe/master/images/aloe-vscode.png)
 
 ## Installation
 
@@ -126,4 +136,4 @@ Issues and pull requests are welcome. Feel free to open a ticket for palette sug
 
 ## Inspiration
 
-Aloe draws inspiration from calm, plant-themed palettes and great community themes like [Halcyon](https://github.com/bchiang7/halcyon-vscode) and [Night Owl](https://github.com/sdras/night-owl-vscode).
+Aloe draws inspiration from calm, plant-themed palettes and great community themes like [Dracula](https://github.com/dracula/dracula-vscode) and [One Dark Pro](https://github.com/akamud/OneDark-Pro).
