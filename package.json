@@ -7,6 +7,11 @@
     "type": "git",
     "url": "https://github.com/lab829/aloe.git"
   },
+  "icon": "images/aloe.png",
+  "galleryBanner": {
+    "color": "#1a1d1a",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.105.0"
   },
