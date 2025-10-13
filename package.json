@@ -38,6 +38,11 @@
     "Dark Theme",
     "color-theme"
   ],
+  "scripts": {
+    "release:patch": "vsce publish patch && git push && git push --tags",
+    "release:minor": "vsce publish minor && git push && git push --tags",
+    "release:major": "vsce publish major && git push && git push --tags"
+  },
   "contributes": {
     "themes": [
       {
