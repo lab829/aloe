@@ -112,6 +112,7 @@ These tweaks pair nicely with the palette:
 - [VS Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
 - [VS Code Theme Documentation](https://code.visualstudio.com/api/extension-guides/color-theme)
 - [VS Code Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [Publish VS Code Extensions Action](https://github.com/HaaLeo/publish-vscode-extension#readme)
 
 ## Token Tweaks
 
