@@ -23,6 +23,7 @@ jobs:
         id: publishToOpenVSX
         with:
           pat: ${{ secrets.OPENVSX_TOKEN }}
+          skipDuplicate: true
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
