@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.6] - 2026-10-26
+
+- Removed the contact email from `package.json` (author, bugs) and `SUPPORT.md`; support is via GitHub issues.
+
 ## [0.0.2] - 2025-10-12
 
 - Documented support options in `SUPPORT.md`.
